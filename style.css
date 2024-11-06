@@ -1,0 +1,27 @@
+
+.marker {
+  
+  border: 2px solid grey;
+  display: flex;
+  place-content: center;
+  height: 120px;
+  
+  .line {
+    width: 0px;
+    height: 60px;
+    position: absolute;
+    border: 2px black solid;
+    transform: translate(28px);
+  }
+  .circle {
+    position: absolute;
+    transform: translate(-28px, 100%);
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
